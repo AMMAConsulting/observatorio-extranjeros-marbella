@@ -2,7 +2,7 @@
 
 Cuadro de mando para la Concejalía de Extranjeros Residentes del Ayuntamiento de Marbella.
 
-**Web:** https://josehino.github.io/observatorio-extranjeros-marbella/
+**Web:** https://ammaconsulting.github.io/observatorio-extranjeros-marbella/
 
 ## Secciones
 
