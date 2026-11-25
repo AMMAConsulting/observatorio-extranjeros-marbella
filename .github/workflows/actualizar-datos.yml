@@ -4,7 +4,10 @@ name: Actualizar datos
 # publicado el mes anterior. Se puede lanzar a mano desde la pestaña Actions.
 on:
   schedule:
-    - cron: "30 5 3 * *"
+    # Semanal (lunes). Con una sola pasada el día 3 el paro del SEPE (que sale
+    # hacia el día 4-11) entraba siempre con un mes de retraso: el 25-11-2026
+    # seguía publicado septiembre con octubre ya disponible.
+    - cron: "34 5 * * 1"
   workflow_dispatch:
 
 permissions:
